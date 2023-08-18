@@ -2,6 +2,8 @@ const adviceNumberEl = document.querySelector(".advice__number");
 const adviceQuoteEl = document.querySelector(".advice__quote");
 const generateBtnEl = document.querySelector(".advice__btn");
 
+
+
 let adviceNumber = 0;
 
 async function fetchRandomAdvice() {

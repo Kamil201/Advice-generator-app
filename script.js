@@ -31,7 +31,7 @@ async function fetchRandomAdvice() {
 async function generateQuote() {
 	const randomAdvice = await fetchRandomAdvice();
 	adviceQuoteEl.textContent = randomAdvice;
-	adviceNumberEl.textContent = adviceNumber;
+	adviceNumberEl.textContent = `#${adviceNumber}`;
 }
 
 generateBtnEl.addEventListener("click", generateQuote);

@@ -70,3 +70,18 @@ body {
 	box-shadow: 0px 0px 30px var(--Neon-Green);
 }
 
+
+@media (min-width: 768px) {
+	.advice__container {
+		width: 400px;
+	}
+
+	.divide {
+		margin-left: 70px;
+	}
+
+	.advice__btn {
+		position: absolute;
+		left: 46%;
+	}
+}
